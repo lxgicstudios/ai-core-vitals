@@ -1,5 +1,10 @@
 # ai-core-vitals
 
+[![npm version](https://img.shields.io/npm/v/ai-core-vitals.svg)](https://www.npmjs.com/package/ai-core-vitals)
+[![npm downloads](https://img.shields.io/npm/dm/ai-core-vitals.svg)](https://www.npmjs.com/package/ai-core-vitals)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 Fix Core Web Vitals issues with AI guidance.
 
 ## Install
