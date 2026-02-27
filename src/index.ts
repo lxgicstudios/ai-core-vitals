@@ -25,7 +25,7 @@ export async function fixCoreVitals(codeChunks: string[]): Promise<string> {
   const response = await openai.chat.completions.create({
     model: "gpt-4o-mini",
     messages: [
-      { role: "system", content: "You are a Core Web Vitals expert. Analyze the code for issues affecting LCP (Largest Contentful Paint), FID/INP (First Input Delay/Interaction to Next Paint), and CLS (Cumulative Layout Shift). For each issue, explain the problem, its impact on the specific metric, and provide a concrete code fix. Prioritize by impact. Be concise." },
+      { role: "system", content: "You are a Core Web Vitals expert. Analyze the code for issues affecting LCP (Largest Contentful Paint), INP (Interaction to Next Paint), and CLS (Cumulative Layout Shift). For each issue, explain the problem, its impact on the specific metric, and provide a concrete code fix. Prioritize by impact. Be concise." },
       { role: "user", content: combined }
     ],
     temperature: 0.3,

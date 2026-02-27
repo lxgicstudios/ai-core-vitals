@@ -5,7 +5,7 @@ description: Fix Core Web Vitals issues with AI guidance. Use when your Lighthou
 
 # Core Web Vitals Fixer
 
-Your LCP is 4 seconds, CLS keeps jumping, and FID feels sluggish. This tool scans your code and tells you exactly what to fix and how.
+Your LCP is 4 seconds, CLS keeps jumping, and INP feels sluggish. This tool scans your code and tells you exactly what to fix and how.
 
 **One command. Zero config. Just works.**
 
@@ -18,7 +18,7 @@ npx ai-core-vitals ./src/
 ## What It Does
 
 - Analyzes your code for Core Web Vitals issues
-- Identifies LCP, FID, and CLS problems
+- Identifies LCP, INP, and CLS problems
 - Provides specific fixes with code examples
 - Prioritizes issues by impact
 
@@ -40,7 +40,7 @@ npx ai-core-vitals ./src/ --metric lcp
 - **Fix LCP first** - it's usually the biggest win
 - **Lazy load below the fold** - don't load what users can't see
 - **Reserve space for images** - prevents CLS
-- **Defer non-critical JS** - improves FID
+- **Defer non-critical JS** - improves INP
 
 ## When to Use This
 
@@ -69,7 +69,7 @@ npx ai-core-vitals --help
 
 ## How It Works
 
-Scans your code files for common performance antipatterns, then sends them to GPT-4o-mini. The AI identifies issues affecting LCP, CLS, and FID and provides actionable fixes with priority rankings.
+Scans your code files for common performance antipatterns, then sends them to GPT-4o-mini. The AI identifies issues affecting LCP, CLS, and INP and provides actionable fixes with priority rankings.
 
 ## License
 
