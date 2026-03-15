@@ -33,7 +33,10 @@
     "typescript",
     "nodejs",
     "lighthouse",
-    "google"
+    "google",
+    "ai-search-optimization",
+    "geo",
+    "core-web-vitals-2026"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
