@@ -1,5 +1,5 @@
 {
-  "name": "ai-core-vitals",
+  "name": "@lxgicstudios/ai-core-vitals",
   "version": "1.0.0",
   "description": "AI-powered Core Web Vitals analyzer - fix LCP, INP, CLS issues with AI recommendations",
   "main": "dist/index.js",
