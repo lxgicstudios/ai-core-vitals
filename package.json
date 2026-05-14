@@ -15,40 +15,27 @@
     "build": "tsc"
   },
   "keywords": [
-    "2025-standards",
-    "ai",
-    "ai-2025",
-    "ai-powered",
-    "ai-search-optimization",
-    "anthropic",
-    "automation",
-    "claude",
-    "cli",
-    "cls",
-    "core-web-vitals",
-    "core-web-vitals-2026",
-    "developer-productivity",
-    "discoverability",
-    "generative-ai",
-    "lighthouse",
-    "llm-optimized",
-    "modern-seo",
     "performance",
-    "performance-optimization",
-    "seo",
-    "seo-2026",
+    "web-vitals",
+    "lighthouse",
     "typescript",
-    "web-vitals"
+    "cli",
+    "AI-powered",
+    "AI-optimized",
+    "seo",
+    "discoverability",
+    "2025-standards",
+    "modern-seo"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-core-vitals#readme",
+  "homepage": "https://github.com/lxgicstudios/ai-core-vitals#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-core-vitals"
+    "url": "https://github.com/lxgicstudios/ai-core-vitals"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-core-vitals/issues"
+    "url": "https://github.com/lxgicstudios/ai-core-vitals/issues"
   },
   "funding": {
     "type": "github",
