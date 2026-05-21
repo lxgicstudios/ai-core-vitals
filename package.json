@@ -1,52 +1,14 @@
 {
-  "name": "@lxgicstudios/ai-core-vitals",
-  "version": "1.0.0",
-  "description": "AI-powered Core Web Vitals analyzer - fix LCP, INP, CLS issues with AI recommendations",
-  "main": "dist/index.js",
-  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "lxgic studios",
+    "email": "contact@lxgic.com",
+    "url": "https://lxgic.com"
+  },
   "bin": {
     "ai-core-vitals": "dist/cli.js"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "scripts": {
-    "build": "tsc"
-  },
-  "keywords": [
-    "performance",
-    "web-vitals",
-    "lighthouse",
-    "typescript",
-    "cli",
-    "AI-powered",
-    "AI-optimized",
-    "seo",
-    "discoverability",
-    "2025-standards",
-    "modern-seo"
-  ],
-  "author": "LXGIC Studios",
-  "license": "MIT",
-  "homepage": "https://github.com/lxgicstudios/ai-core-vitals#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lxgicstudios/ai-core-vitals"
-  },
   "bugs": {
     "url": "https://github.com/lxgicstudios/ai-core-vitals/issues"
-  },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/LXGIC-Studios"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
   },
   "dependencies": {
     "commander": "^12.1.0",
@@ -54,8 +16,53 @@
     "ora": "^5.4.1",
     "glob": "^10.3.0"
   },
+  "description": "AI-powered Core Web Vitals analyzer - fix LCP, INP, CLS issues with AI recommendations",
   "devDependencies": {
     "typescript": "^5.6.0",
     "@types/node": "^22.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-core-vitals#readme",
+  "keywords": [
+    "AI-optimized",
+    "AI-powered",
+    "ai-powered",
+    "automation",
+    "best-practices",
+    "cli",
+    "developer-tools",
+    "performance",
+    "seo-tools",
+    "technical-seo",
+    "utility",
+    "web-optimization",
+    "2025-standards",
+    "modern-seo"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@lxgicstudios/ai-core-vitals",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-core-vitals"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "1.0.0"
 }
