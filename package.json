@@ -36,19 +36,13 @@
   "keywords": [
     "core-web-vitals",
     "crawlability",
-    "generative-engine-optimization",
-    "geo",
     "inp-optimization",
     "lcp-optimization",
     "lighthouse",
-    "may-2026-core-update",
     "mobile-first",
     "page-speed",
     "performance",
-    "technical-seo",
-    "web-vitals",
-    "2026-standards",
-    "modern-seo"
+    "web-vitals"
   ],
   "license": "MIT",
   "main": "dist/index.js",
