@@ -42,7 +42,9 @@
     "mobile-first",
     "page-speed",
     "performance",
-    "web-vitals"
+    "web-vitals",
+    "seo-optimized",
+    "clawdbot"
   ],
   "license": "MIT",
   "main": "dist/index.js",
