@@ -8,7 +8,7 @@
     "ai-core-vitals": "dist/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/npm-tools/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-core-vitals/issues"
   },
   "dependencies": {
     "commander": "^12.1.0",
@@ -32,7 +32,7 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-core-vitals",
+  "homepage": "https://github.com/LXGIC-Studios/ai-core-vitals",
   "keywords": [
     "core-web-vitals",
     "crawlability",
@@ -44,7 +44,19 @@
     "performance",
     "web-vitals",
     "seo-optimized",
-    "clawdbot"
+    "clawdbot",
+    "ai",
+    "anthropic",
+    "automation",
+    "claude",
+    "cli",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "devtools",
+    "gpt",
+    "npx",
+    "openai"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -55,8 +67,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/npm-tools.git",
-    "directory": "ai-core-vitals"
+    "url": "git+https://github.com/LXGIC-Studios/ai-core-vitals.git"
   },
   "scripts": {
     "build": "tsc"
